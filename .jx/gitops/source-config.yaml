@@ -13,6 +13,7 @@ spec:
     - name: jx3-project-python-01-3
     - name: jx3-python-01-4
     - name: jx3-python-http-01-5
+    - name: jx3-python-http-01-7
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
