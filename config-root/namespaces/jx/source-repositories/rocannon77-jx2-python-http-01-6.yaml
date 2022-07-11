@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: rocannon77
+    provider: github
+    repository: jx2-python-http-01-6
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: rocannon77-jx2-python-http-01-6
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/rocannon77/jx2-python-http-01-6.git
+  org: rocannon77
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx2-python-http-01-6
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/rocannon77/jx2-python-http-01-6

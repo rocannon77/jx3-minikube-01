@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        rocannon77/jx2-python-http-01-6: true
         rocannon77/jx3-minikube-01: true
         rocannon77/jx3-project-python-01-2: true
         rocannon77/jx3-project-python-01-3: true
@@ -23,6 +24,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        rocannon77/jx2-python-http-01-6: merge
         rocannon77/jx3-minikube-01: merge
         rocannon77/jx3-project-python-01-2: merge
         rocannon77/jx3-project-python-01-3: merge
@@ -39,6 +41,7 @@ data:
         - needs-rebase
         repos:
         - rocannon77/jx3-minikube-01
+        - rocannon77/jx2-python-http-01-6
         - rocannon77/jx3-project-python-01-2
         - rocannon77/jx3-project-python-01-3
         - rocannon77/jx3-python-01-4
@@ -53,6 +56,7 @@ data:
         - needs-rebase
         repos:
         - rocannon77/jx3-minikube-01
+        - rocannon77/jx2-python-http-01-6
         - rocannon77/jx3-project-python-01-2
         - rocannon77/jx3-project-python-01-3
         - rocannon77/jx3-python-01-4
