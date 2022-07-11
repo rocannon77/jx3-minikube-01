@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-production
+repositories:
+- name: dev
+  url: http://192.168.49.2.nip.io/bucketrepo
+releases:
+- chart: dev/jx3-python-01-4
+  version: 0.0.1
+  name: jx3-python-01-4
+templates: {}
+renderedvalues: {}
