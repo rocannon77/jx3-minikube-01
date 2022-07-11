@@ -12,7 +12,7 @@ metadata:
     meta.helm.sh/release-name: 'bucketrepo'
   namespace: jx
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
     - port: 80
       targetPort: 8080
