@@ -21,7 +21,7 @@ jxRequirements:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
+    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/
     clusterName: kind
     devEnvApprovers:
     - todo
