@@ -13,6 +13,7 @@ data:
         rocannon77/jx3-project-python-01-3: true
         rocannon77/jx3-python-01-4: true
         rocannon77/jx3-python-http-01-5: true
+        rocannon77/jx3-python-http-01-7: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -30,6 +31,7 @@ data:
         rocannon77/jx3-project-python-01-3: merge
         rocannon77/jx3-python-01-4: merge
         rocannon77/jx3-python-http-01-5: merge
+        rocannon77/jx3-python-http-01-7: merge
       queries:
       - labels:
         - approved
@@ -46,6 +48,7 @@ data:
         - rocannon77/jx3-project-python-01-3
         - rocannon77/jx3-python-01-4
         - rocannon77/jx3-python-http-01-5
+        - rocannon77/jx3-python-http-01-7
       - labels:
         - updatebot
         missingLabels:
@@ -61,6 +64,7 @@ data:
         - rocannon77/jx3-project-python-01-3
         - rocannon77/jx3-python-01-4
         - rocannon77/jx3-python-http-01-5
+        - rocannon77/jx3-python-http-01-7
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
