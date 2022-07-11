@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: jx2-python-http-01-6
     - name: jx3-project-python-01-2
     - name: jx3-project-python-01-3
     - name: jx3-python-01-4
