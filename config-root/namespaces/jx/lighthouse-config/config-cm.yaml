@@ -9,6 +9,7 @@ data:
       enabled:
         rocannon77/jx3-minikube-01: true
         rocannon77/jx3-project-python-01-2: true
+        rocannon77/jx3-project-python-01-3: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         rocannon77/jx3-minikube-01: merge
         rocannon77/jx3-project-python-01-2: merge
+        rocannon77/jx3-project-python-01-3: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - rocannon77/jx3-minikube-01
         - rocannon77/jx3-project-python-01-2
+        - rocannon77/jx3-project-python-01-3
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - rocannon77/jx3-minikube-01
         - rocannon77/jx3-project-python-01-2
+        - rocannon77/jx3-project-python-01-3
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
