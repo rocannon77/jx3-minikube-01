@@ -48,6 +48,9 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/bucketrepo/values.yaml.gotmpl
   - jx-values.yaml
+  set:
+  - name: service.type
+    value: NodePort
 - chart: twuni/docker-registry
   name: docker-registry
   values:
